@@ -1,3 +1,42 @@
+⭐ If this project helps you, please star the repository
+
+# WebAuthn localhost デモ（Java 8 / レガシー対応）
+# WebAuthn localhost demo (Java 8 / legacy-friendly)
+
+⭐ If this project helps you, please star the repository
+
+本プロジェクトは、既存のレガシーシステムにも組み込み可能な形で  
+WebAuthn（パスキー認証）を最小構成で体験・検証できるサンプルです。
+
+This project demonstrates WebAuthn (passkey authentication) in a minimal form  
+that can be integrated into existing legacy systems.
+
+---
+
+## 🎯 目的 / Purpose
+
+- パスキー認証を最短で理解する  
+- Windows Hello にパスキーを登録する  
+- 既存システムへの組み込みイメージを持つ  
+
+---
+
+## 🧭 設計方針 / Design Principles
+
+- Java 8（レガシー対応）
+- Servletベース（フレームワーク非依存）
+- Yubico OSS 利用
+- インストール作業の排除
+- localhost 前提
+
+---
+
+## 🚀 クイックスタート / Quick Start
+
+```bash
+build.bat
+start.bat
+
 # webauthn-servlet
 
 Java 8 / Windows 向けの Servlet + 埋め込み Tomcat 9 + Yubico `java-webauthn-server` サンプルです。
