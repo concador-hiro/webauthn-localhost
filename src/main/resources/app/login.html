@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Cache-Control" content="no-store">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WebAuthn Servlet Demo - Login</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 720px; margin: 16px auto; padding: 0 10px; line-height: 1.45; }
+    h1 { margin: 0 0 10px; }
+    h2 { margin: 0 0 10px; }
+    .card { border: 1px solid #ccc; border-radius: 8px; padding: 14px; margin-bottom: 10px; }
+    label { display: block; margin-top: 8px; }
+    input { width: 100%; padding: 8px; margin-top: 4px; box-sizing: border-box; }
+    button { margin-top: 10px; padding: 9px 14px; cursor: pointer; }
+    .status { white-space: pre-wrap; background: #f7f7f7; border: 1px solid #ddd; padding: 10px; border-radius: 6px; min-height: 40px; }
+    p.note { margin: 4px 0 0; }
+  </style>
+</head>
+<body>
+  <h1>WebAuthn Servlet Demo</h1>
+
+  <div class="card">
+    <h2>1. パスワードログイン</h2>
+    <form id="password-login-form">
+      <label>Username (任意)
+        <input type="text" id="username" value="" autocomplete="username" placeholder="例: user25">
+      </label>
+      <label>Password (passwd)
+        <input type="password" id="password" value="passwd" autocomplete="current-password">
+      </label>
+      <button type="submit">パスワードでログイン</button>
+    </form>
+    <p class="note">初回ログイン時は、任意のユーザー名と <code>passwd</code> を入力してください。</p>
+  </div>
+
+  <div class="card">
+    <h2>5. パスキーでログイン</h2>
+    <button id="passkey-login-button" type="button">パスキーでログイン</button>
+  </div>
+
+  <div class="card">
+    <h2>状態</h2>
+    <div id="status" class="status">起動直後です。</div>
+  </div>
+
+  <script src="/js/app.js"></script>
+</body>
+</html>

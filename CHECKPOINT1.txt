@@ -1,0 +1,20 @@
+CHECKPOINT 1
+============
+
+Scope of this checkpoint:
+- Source tree is unified under src/main/java and src/main/resources only.
+- No register.html page.
+- Login -> menu -> passkey registration -> logout -> login -> passkey login flow.
+- Session check endpoint is /api/session.
+- Logout calls HttpSession.invalidate().
+- build.bat runs Maven in OFFLINE mode (-o).
+- JDK and Maven are expected to be preinstalled as static folders on Windows.
+
+What is NOT bundled here:
+- A preloaded offline Maven repository with third-party jars.
+- A bundled JRE binary.
+
+Before build:
+- Set JAVA_HOME if you do not use C:\java\jdk-8u202
+- Set MAVEN_HOME if you do not use C:\java\apache-maven-3.9.14
+- Set MAVEN_REPO to your preloaded offline repository path if needed
