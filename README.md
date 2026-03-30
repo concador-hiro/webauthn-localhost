@@ -3,8 +3,6 @@
 # WebAuthn localhost デモ（Java 8 / レガシー対応）
 # WebAuthn localhost demo (Java 8 / legacy-friendly)
 
-⭐ If this project helps you, please star the repository
-
 本プロジェクトは、既存のレガシーシステムにも組み込み可能な形で  
 WebAuthn（パスキー認証）を最小構成で体験・検証できるサンプルです。
 
