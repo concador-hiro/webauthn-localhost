@@ -1,7 +1,9 @@
-⭐ If this project helps you, please star the repository
+⭐ If this project helps you, please give it a star!
 
-# WebAuthn localhost デモ（Java 8 / レガシー対応）
-# WebAuthn localhost demo (Java 8 / legacy-friendly)
+# WebAuthn localhost デモ（Java 8 / レガシー対応）  
+### WebAuthn localhost demo (Java 8 / legacy-friendly)
+
+Java 8 + Servlet + Embedded Tomcat + Yubico WebAuthn
 
 本プロジェクトは、既存のレガシーシステムにも組み込み可能な形で  
 WebAuthn（パスキー認証）を最小構成で体験・検証できるサンプルです。
